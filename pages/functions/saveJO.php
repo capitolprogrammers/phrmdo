@@ -11,40 +11,40 @@ $note = p('jo_note');
 $datetime = getdatetime();
 
 $monthno = '';
-if (strpos($jono, "January")) {
+if (strpos($jono, "Jan")) {
 	$monthno = 1;
 }
-if (strpos($jono, "February")) {
+if (strpos($jono, "Feb")) {
 	$monthno = 2;
 }
-if (strpos($jono, "March")) {
+if (strpos($jono, "Mar")) {
 	$monthno = 3;
 }
-if (strpos($jono, "April")) {
+if (strpos($jono, "Apr")) {
 	$monthno = 4;
 }
 if (strpos($jono, "May")) {
 	$monthno = 5;
 }
-if (strpos($jono, "June")) {
+if (strpos($jono, "Jun")) {
 	$monthno = 6;
 }
-if (strpos($jono, "July")) {
+if (strpos($jono, "Jul")) {
 	$monthno = 7;
 }
-if (strpos($jono, "August")) {
+if (strpos($jono, "Aug")) {
 	$monthno = 8;
 }
-if (strpos($jono, "September")) {
+if (strpos($jono, "Sep")) {
 	$monthno = 9;
 }
-if (strpos($jono, "October")) {
+if (strpos($jono, "Oct")) {
 	$monthno = 10;
 }
-if (strpos($jono, "November")) {
+if (strpos($jono, "Nov")) {
 	$monthno = 11;
 }
-if (strpos($jono, "December")) {
+if (strpos($jono, "Dec")) {
 	$monthno = 12;
 }
 $r = get_value("SELECT count(*) from jotbl WHERE jo_number = '$jono'")[0];

@@ -59,7 +59,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
 <!--<script type="text/javascript" src="myjs.js"></script>-->
- <script type="text/javascript" src="myjs-minify.js"></script>  
+ <script type="text/javascript" src="myjs-minify-updated.js"></script>  
 <script type="text/javascript">
 //   load_for_jos();
 //   loademployees();
