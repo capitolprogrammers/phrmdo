@@ -1,0 +1,48 @@
+.dropdown-menu a:hover {
+	color:whitesmoke;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	color:whitesmoke;
+}
+.close{
+	color: whitesmoke!important;
+	margin-right: 1px!important;
+}
+
+.modal-content{
+	border: none;
+	background: #191c24;
+}
+.card-title-modal{
+	color: grey;
+	border-bottom: solid 1px grey;
+}
+.employee-photo{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.modal-shits strong{
+	font-weight: 500;
+}
+#accordion .card{
+	border: none;
+	margin-bottom: 5px;
+	color: #bfbfbf;
+}
+#accordion .btn{
+	color: #bfbfbf;
+}
+.header-button{
+	float: right;
+}
+.swal2-popup{
+	width: 200px!important;
+	height: 100px!important;
+}
+.swal2-modal{
+	min-height: none;
+}
